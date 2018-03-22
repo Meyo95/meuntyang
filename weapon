@@ -1,0 +1,16 @@
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            _ani.SetLayerWeight(_ani.GetLayerIndex("w1"), 1);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F3))
+        {
+            _ani.SetLayerWeight(_ani.GetLayerIndex("w1"), 0);
+
+        }
+        
+        
+        
+    /*
+   애니메이션레이어사용중
+   */
